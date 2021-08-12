@@ -313,6 +313,8 @@
 			<false/>
 			<key>ResetLogoStatus</key>
 			<true/>
+			<key>SyncTableIds</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -1262,6 +1264,8 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
@@ -1425,6 +1429,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>ForceDisplayRotationInEFI</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -1525,6 +1530,8 @@
 			<string>Builtin</string>
 			<key>CustomDelays</key>
 			<false/>
+			<key>GraphicsInputMirroring</key>
+			<true/>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
