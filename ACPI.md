@@ -1,5 +1,8 @@
 # Fixing ACPI
-This setup using ACPI from many source. Because of that, on opencore v0.7.2 the system is unable sleep without Lowest CPU freq curve from CPUFriend. In order to fix this problem, we need to create our ACPI
+
+~~This setup using ACPI from many source. Because of that, on opencore v0.7.2 the system is unable sleep without Lowest CPU freq curve from CPUFriend. In order to fix this problem, we need to create our ACPI~~
+
+If your laptop using older or newer version of firmware/BIOS than ALCN33WW(V2.10) or maybe have different configuration please recreate the ACPI and patch accordingly.
 
 ## Dump SSDT
 
@@ -23,19 +26,12 @@ This setup using ACPI from many source. Because of that, on opencore v0.7.2 the 
     name      | how-to
     ----------|-----------
     SSDT-XOSI | [prebuilt](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/trackpad-methods/prebuilt.html)
-    <br>
-    OR
-    <br>
-    <br>
-
-    name      | how-to
-    ----------|-----------
     SSDT-GPI0 |[manual](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/trackpad-methods/manual.html)
 
   * ### fix CPU power
     name      | how-to
     ----------|-----------
-    SSDT-PLUG |[ssdtime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug-methods/ssdttime.html) 
+    SSDT-PLUG | [ssdtime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug-methods/ssdttime.html) 
     SSDT-PLUG | [manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug-methods/manual.html#finding-the-acpi-path)
 
   * ### fix backlight
@@ -46,25 +42,28 @@ This setup using ACPI from many source. Because of that, on opencore v0.7.2 the 
   * ### fix system clock
     name      | how-to
     ----------|-----------
-    SSDT-AWAC OR SSDT-RTC0 |[manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac-methods/manual.html#determining-which-ssdt-you-need)
+    SSDT-AWAC-DISABLE |[manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac-methods/manual.html#determining-which-ssdt-you-need)
 
   * ### fix sleep
     name      | how-to
     ----------|-----------
-    SSDT-GPRW OR SSDT-UPRW |[prebuilt](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html)
+    SSDT-GPRW |[prebuilt](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html)
 
-    note : check `Method (GPRW,2` or `Method (UPRW,2` in ACPI
+  * ### _IRQPatch_ (optional)
+    name      | how-to
+    ----------|-----------
+    SSDT-HPET | [ssdtime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)
 
-  * ### IRQPatch
-    SSDT-HPET [ssdtime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)
+  * ### _SMBUS_ (Optional)
+    name      | how-to
+    ----------|-----------
+    SSDT-SBUS-MCHC | [manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#finding-the-acpi-path)
 
-  * ### SMBUS (Optional)
-    SSDT-SBUS-MCHC [manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#finding-the-acpi-path)
-
-  * ### OPTIONAL
+  * ### _OPTIONAL_
     Name | Feature | status
     -----|---------|------- 
-    SSDT-PSF13 | fix prtsc key to f13 | [prebuilt](https://github.com/WraithWinterly/Lenovo-Ideapad-S340-Hackintosh-Catalina-OpenCore/blob/master/EFI/OC/ACPI/SSDT-PSF13.aml?raw=true)
-    SSDT-Q11Q22 | fix brigthness key, don't use if brightnesskeys.kext enabled | [prebuilt](https://github.com/WraithWinterly/Lenovo-Ideapad-S340-Hackintosh-Catalina-OpenCore/blob/master/EFI/OC/ACPI/SSDT-Q11Q12.aml?raw=true)
+    SSDT-HPET | IRQ Conflict patch | [ssdtime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)
+    SSDT-SBUS-MCHC | SMBUS Fix |[manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#finding-the-acpi-path)
+    SSDT-PSF13 | fix prtsc key to f13 | [prebuilt](https://github.com/RieGan/Ideapad-S340-15iwl-Hackintosh/blob/master/SSDTs/compiled/SSDT-PSF13.aml?raw=true)
 
 ## [Cleanup](https://dortania.github.io/Getting-Started-With-ACPI/cleanup.html)
