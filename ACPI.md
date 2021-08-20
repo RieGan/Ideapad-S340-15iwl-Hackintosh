@@ -4,7 +4,7 @@
 
 If your laptop using older or newer version of firmware/BIOS than ALCN33WW(V2.10) or maybe have different configuration please recreate the ACPI and patch accordingly.
 
-## Dump SSDT
+## [Dump SSDT](https://dortania.github.io/Getting-Started-With-ACPI/Manual/dump.html)
 
 ## Create ACPI
   * ### fix EC & USB Power
@@ -48,16 +48,6 @@ If your laptop using older or newer version of firmware/BIOS than ALCN33WW(V2.10
     name      | how-to
     ----------|-----------
     SSDT-GPRW |[prebuilt](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html)
-
-  * ### _IRQPatch_ (optional)
-    name      | how-to
-    ----------|-----------
-    SSDT-HPET | [ssdtime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)
-
-  * ### _SMBUS_ (Optional)
-    name      | how-to
-    ----------|-----------
-    SSDT-SBUS-MCHC | [manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#finding-the-acpi-path)
 
   * ### _OPTIONAL_
     Name | Feature | status
