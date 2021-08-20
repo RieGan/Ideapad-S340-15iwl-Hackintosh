@@ -128,15 +128,21 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 - GPU Acceleration	:white_check_mark:
 - Sleep/Wake	:white_check_mark:
 - Shutdown - Restart	:white_check_mark:
-- USB Port	:white_check_mark:
+- USB Port (Mapped)	:white_check_mark:
 - Sound Input-Output	:white_check_mark:
 - Brightness Key	:white_check_mark:
 - WebCam 	:white_check_mark:
+- Bluetooth :white_check_mark:
+- HDMI :white_check_mark:
+- Touchpad :white_check_mark:
+- Keyboard :white_check_mark:
+
 
 
  
 ### Not-Working
-- Card Reader
+- Card Reader 
+- NumLock Key
 
 # Some of Screenshots
 ![Cinnebench R23](https://i.ibb.co/rFTw1Sk/Screenshot-2021-08-12-at-13-43-35.png) \
