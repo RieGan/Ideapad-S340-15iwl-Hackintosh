@@ -139,7 +139,8 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 - Card Reader
 
 # Some of Screenshots
-![Cinnebench R23](https://i.ibb.co/rFTw1Sk/Screenshot-2021-08-12-at-13-43-35.png)
+![Cinnebench R23](https://i.ibb.co/rFTw1Sk/Screenshot-2021-08-12-at-13-43-35.png) \
+<sup>*</sup>Using PL1:12.5w and PL2:25w, default BIOS config using a lot more than that
 
 # Credits
 This build wouldn't happen without these people: 
