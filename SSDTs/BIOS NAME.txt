@@ -1,0 +1,14 @@
+Microsoft ACPI-Compliant Embedded Controller
+\_SB.PCI0.LPCB.EC0
+
+Intel(R) Serial IO GPIO Host Controller - INT34BB
+\_SB.PCI0.GPI0
+
+Intel Processor
+\_SB.PR00
+
+Intel(R) UHD Graphics 620
+\_SB.PCI0.GFX0
+
+SM Bus Controller
+\_SB.PCI0.SBUS
