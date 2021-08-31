@@ -98,7 +98,7 @@
 				<key>Comment</key>
 				<string>I2C Trackpad Patching (optional)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-I2C0-SPED.aml</string>
 			</dict>
