@@ -120,7 +120,6 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 #### 5 : Copy your edited EFI folder to USB 
 #### 6 : Have fun with your installation
   
-  
 
 # Working & Not-Working
 ### Working
@@ -145,8 +144,16 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 - NumLock Key
 
 # Some of Screenshots
-![Cinnebench R23](https://i.ibb.co/rFTw1Sk/Screenshot-2021-08-12-at-13-43-35.png) \
 <sup>*</sup>Using PL1:12.5w and PL2:25w, default BIOS config using a lot more than that
+![Cinnebench R23](https://i.ibb.co/rFTw1Sk/Screenshot-2021-08-12-at-13-43-35.png) \
+![Geekbench 5 - CPU](https://user-images.githubusercontent.com/33412865/131515136-832718ea-4077-48df-b9a8-ad5fb24a70b9.png) \
+![Geekbench 5 - GPU](https://user-images.githubusercontent.com/33412865/131517289-ee3aabc8-9171-44f3-8824-d2a3037b5678.png) \
+![Hackintool USB](https://user-images.githubusercontent.com/33412865/131515407-dd154eac-cbd7-4091-8451-c0732d6656db.png) \
+
+
+
+
+
 
 # Credits
 This build wouldn't happen without these people: 
