@@ -68,11 +68,12 @@ Fully power off the laptop. Enter the BIOS by pressing F2 at boot. Power off the
 ```
 
 Power on the laptop while pressing F2 at boot. You'll see a lot of debug options. Don't mess with them. We only need to change one setting. 
-Config | How-to
--------|-------
-CFG-LOCK | Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
-Above 4G decoding | Advanced → System Agent Conf → Above 4GB MMIO BIOS assigment -> disabled
-VT-d | Advanced → System Agent Conf → VT-d → disabled
+
+| Config            | How-to |
+| ------------------|--------|
+| CFG-LOCK          | Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled |
+| Above 4G decoding | Advanced → System Agent Conf → Above 4GB MMIO BIOS assigment -> disabled |
+| VT-d              | Advanced → System Agent Conf → VT-d → disabled |
 
 
 Exit and Save, and your laptop is ready to install.
