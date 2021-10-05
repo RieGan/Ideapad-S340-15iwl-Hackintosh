@@ -1,7 +1,7 @@
 # Ideapad-S340-15iwl-Hackintosh
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-v0.7.2-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![MacOS-Stable](https://img.shields.io/badge/MacOS-11.5.2-brightgreen.svg)](https://www.apple.com/macos/catalina/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-v0.7.4-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![MacOS-Stable](https://img.shields.io/badge/MacOS-11.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
 ![STATUS](https://img.shields.io/badge/STATUS-stable-green.svg)
 
 # Introduction
