@@ -44,7 +44,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PNLFCFL.aml</string>
+				<string>SSDT-PNLF.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -473,7 +473,7 @@
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 				<key>model</key>
-				<string>Intel Iris Plus Graphics 655</string>
+				<string>Intel Iris Plus Graphics 620</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
