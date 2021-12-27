@@ -1,8 +1,11 @@
 # Ideapad-S340-15iwl-Hackintosh
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-v0.7.4-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![MacOS-Stable](https://img.shields.io/badge/MacOS-11.6-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-![STATUS](https://img.shields.io/badge/STATUS-stable-green.svg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-v0.7.6-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![MacOS-Stable](https://img.shields.io/badge/MacOS-11.6.2-brightgreen.svg)](https://www.apple.com/macos/)
+![STATUS](https://img.shields.io/badge/STATUS-stable-brightgreen.svg)
+[![MacOS-Stable](https://img.shields.io/badge/MacOS-12.1-blueviolet.svg)](https://www.apple.com/macos/)
+![STATUS](https://img.shields.io/badge/STATUS-BETA-blueviolet.svg)
+
 
 # Introduction
 This is my second hackintosh project. This hackintosh configuration is built for Lenovo Ideapad S340-15iwl. This repository is intended for educational purpose. Personally, I don't have much money for buying mac device, so... this is my approach.
@@ -38,16 +41,16 @@ Please read entire guide from Dortania OpenCore Guides and this ReadMe before yo
 | Name          | Version    |
 |-------------------|-----------|
 | [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)          | 2.1.3  |
-| [AppleALC](https://github.com/acidanthera/AppleALC)       | 1.6.3  |
-| [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | 2.6.0
+| [AppleALC](https://github.com/acidanthera/AppleALC)       | 1.6.7  |
+| [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | 2.6.1
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | 1.0.2
 | [CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.4
 | [NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.0.9
 | [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) | 2.6.5
-| [VoodooPS2](https://github.com/acidanthera/VoodooPS2) | 2.2.4
-| [Lilu](https://github.com/acidanthera/Lilu)               | 1.5.5  |
-| [VirtualSMC](https://github.com/acidanthera/VirtualSMC)| 1.2.6 |
-| [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.2 |
+| [VoodooPS2](https://github.com/acidanthera/VoodooPS2) | 2.2.7
+| [Lilu](https://github.com/acidanthera/Lilu)               | 1.5.8  |
+| [VirtualSMC](https://github.com/acidanthera/VirtualSMC)| 1.2.8 |
+| [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.5 |
 
 
 ### Advanced BIOS Menu
@@ -67,7 +70,7 @@ Fully power off the laptop. Enter the BIOS by pressing F2 at boot. Power off the
      F6 → 6 → Y → H → N
 ```
 
-Power on the laptop while pressing F2 at boot. You'll see a lot of debug options. Don't mess with them. We only need to change one setting. 
+Power on the laptop while pressing F2 at boot. You'll see a lot of debug options. Don't mess with them. We only need to change this settings. 
 
 | Config            | How-to |
 | ------------------|--------|
@@ -82,7 +85,7 @@ Exit and Save, and your laptop is ready to install.
 #### 1 : Creating USB Installation - [open](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
 #### 2 : Disable dGPU<sup></sup> - [open](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html#windows-gpu-selection)
 If your laptop have discrete GPU, disable it first. MacOS Doesn't have support for those laptop's dGPU
-#### 3 : Change Wireless Card
+#### 3 : Wireless Card Configuration
 - First Option \
   Change to BCM93450ZAE
 - Second Option <sup>*</sup> __*HARD*__ \
@@ -143,6 +146,7 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 ### Not-Working
 - Card Reader 
 - NumLock Key
+- Bluetooth __(Monterey)__ because of [the new implementation of bluetooth](https://github.com/acidanthera/bugtracker/issues/1821)
 
 # Some of Screenshots
 <sup>*</sup>Using PL1:12.5w and PL2:25w, default BIOS config using a lot more than that
