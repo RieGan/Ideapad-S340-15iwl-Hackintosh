@@ -147,7 +147,7 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 - Card Reader 
 - NumLock Key
 - Bluetooth __(Monterey)__ because of [the new implementation of bluetooth](https://github.com/acidanthera/bugtracker/issues/1821)
-
+- Boot-picker and BIOS keyboard after shutdown (everything is normal after boot or after using other os but monterey) check [this](https://github.com/acidanthera/bugtracker/issues/1895)
 # Some of Screenshots
 <sup>*</sup>Using PL1:12.5w and PL2:25w, default BIOS config using a lot more than that
 ![Cinnebench R23](https://i.ibb.co/rFTw1Sk/Screenshot-2021-08-12-at-13-43-35.png) \
