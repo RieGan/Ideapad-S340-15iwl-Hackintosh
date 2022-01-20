@@ -50,8 +50,10 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB A - Back 2.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -59,8 +61,10 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB A - Front 2.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -68,8 +72,10 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB C 2.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>9</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -77,8 +83,10 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB Camera(integrated)</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						BgAAAA==
@@ -86,15 +94,19 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
-						<key>#port</key>
+						<key>Comment</key>
+						<string>USB Bluetooth(integrated)</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
 						<data>
 						CgAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB A - Back 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -104,6 +116,8 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB A - Front 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -113,8 +127,10 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB C 3.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>9</integer>
 						<key>port</key>
 						<data>
 						DwAAAA==
