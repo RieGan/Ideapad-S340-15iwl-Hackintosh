@@ -419,6 +419,8 @@
 				<string>Internal@0,31,3</string>
 				<key>alc-delay</key>
 				<integer>1000</integer>
+				<key>alc-verbs</key>
+				<integer>1</integer>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
