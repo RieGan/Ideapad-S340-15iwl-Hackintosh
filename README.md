@@ -156,7 +156,20 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 ![Hackintool USB](https://user-images.githubusercontent.com/33412865/131515407-dd154eac-cbd7-4091-8451-c0732d6656db.png)
 
 
+# Fixing Audio Jack after sleep
+This is common problem for ALC 295. After sleep, usually OS (windows/linux) send some signal to reactivate audio jack. But, in this case (hackintosh) that thing doesn't happen. So, we need to send that signal manually after every wakeup. Fortunately, we have tool to automated that.
 
+## Download ALCPlugFix for Ideapad S340 Iwl
+Download the files from [here](https://github.com/RieGan/Ideapad-S340-15iwl-Hackintosh/releases/tag/ALCPlugFix)
+
+## Extract and run
+Extract the files and run `install.sh` from terminal
+
+## Import Config for ALC295
+Drag and drop `ALC295.plist` to terminal
+
+## Restart
+Audio jack problem solved after restart
 
 
 
@@ -168,6 +181,7 @@ This build wouldn't happen without these people:
 - [OpenCore project](https://github.com/OpenCorePkg) for the bootloader
 - [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) for the trackpad kext
 - [headkaze](https://github.com/headkaze) for Hackintool 
+- [black-dragon74](https://github.com/black-dragon74) for ALCPlugFix-Swift
 - [curtistn](https://www.tonymacx86.com/threads/guide-lenovo-ideapad-s340-laptop-on-catalina.288003/page-53#post-2209713) for the framebuffer patch
 - [WraithWinterly](https://github.com/WraithWinterly) for CFG-Lock disabling tutorial
 
