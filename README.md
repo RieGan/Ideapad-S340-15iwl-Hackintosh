@@ -1,9 +1,9 @@
 # Ideapad-S340-15iwl-Hackintosh
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-v0.7.6-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![MacOS-Stable](https://img.shields.io/badge/MacOS-11.6.2-brightgreen.svg)](https://www.apple.com/macos/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-v0.8.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![MacOS-Stable](https://img.shields.io/badge/MacOS-11.6.6-brightgreen.svg)](https://www.apple.com/macos/)
 ![STATUS](https://img.shields.io/badge/STATUS-stable-brightgreen.svg)
-[![MacOS-Stable](https://img.shields.io/badge/MacOS-12.1-blueviolet.svg)](https://www.apple.com/macos/)
+[![MacOS-Stable](https://img.shields.io/badge/MacOS-12.4-blueviolet.svg)](https://www.apple.com/macos/)
 ![STATUS](https://img.shields.io/badge/STATUS-BETA-blueviolet.svg)
 
 
@@ -40,17 +40,17 @@ Please read entire guide from Dortania OpenCore Guides and this ReadMe before yo
  ### Kext
 | Name          | Version    |
 |-------------------|-----------|
-| [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)          | 2.1.3  |
-| [AppleALC](https://github.com/acidanthera/AppleALC)       | 1.6.7  |
-| [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | 2.6.1
+| [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)          | 2.1.5  |
+| [AppleALC](https://github.com/acidanthera/AppleALC)       | 1.7.2  |
+| [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM) | 2.6.2
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | 1.0.2
-| [CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.4
+| [CPUFriend](https://github.com/acidanthera/CPUFriend) | 1.2.5
 | [NVMeFix](https://github.com/acidanthera/NVMeFix) | 1.0.9
-| [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) | 2.6.5
-| [VoodooPS2](https://github.com/acidanthera/VoodooPS2) | 2.2.7
-| [Lilu](https://github.com/acidanthera/Lilu)               | 1.5.8  |
-| [VirtualSMC](https://github.com/acidanthera/VirtualSMC)| 1.2.8 |
-| [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.5 |
+| [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) | 2.7
+| [VoodooPS2](https://github.com/acidanthera/VoodooPS2) | 2.2.8
+| [Lilu](https://github.com/acidanthera/Lilu)               | 1.6.0  |
+| [VirtualSMC](https://github.com/acidanthera/VirtualSMC)| 1.2.9 |
+| [WhateverGreen](https://github.com/acidanthera/WhateverGreen) | 1.5.9 |
 
 
 ### Advanced BIOS Menu
@@ -146,14 +146,14 @@ Using [ProperTree](https://github.com/corpnewt/ProperTree) open config.plist
 ### Not-Working
 - Card Reader 
 - NumLock Key
-- Bluetooth __(Monterey)__ because of [the new implementation of bluetooth](https://github.com/acidanthera/bugtracker/issues/1821)
-- Boot-picker and BIOS keyboard after shutdown (everything is normal after boot or after using other os but monterey) check [this](https://github.com/acidanthera/bugtracker/issues/1895)
+- __[Monterey]__ Bluetooth because of [the new implementation of bluetooth](https://github.com/acidanthera/bugtracker/issues/1821)
+- __[Monterey]__ Boot-picker and BIOS keyboard after shutdown ( everything is normal after boot or after using other os but monterey) check [this](https://github.com/acidanthera/bugtracker/issues/1895)
 # Some of Screenshots
 <sup>*</sup>Using PL1:12.5w and PL2:25w, default BIOS config using a lot more than that
 ![Cinnebench R23](https://i.ibb.co/rFTw1Sk/Screenshot-2021-08-12-at-13-43-35.png) \
 ![Geekbench 5 - CPU](https://user-images.githubusercontent.com/33412865/131515136-832718ea-4077-48df-b9a8-ad5fb24a70b9.png) \
 ![Geekbench 5 - GPU](https://user-images.githubusercontent.com/33412865/131517289-ee3aabc8-9171-44f3-8824-d2a3037b5678.png) \
-![Hackintool USB](https://user-images.githubusercontent.com/33412865/131515407-dd154eac-cbd7-4091-8451-c0732d6656db.png) \
+![Hackintool USB](https://user-images.githubusercontent.com/33412865/131515407-dd154eac-cbd7-4091-8451-c0732d6656db.png)
 
 
 
